@@ -1,0 +1,13 @@
+image: "<img src='https://picsum.photos/500/500' alt='Article image' />"
+date: "October 29, 2019"
+heading:
+  title: "This is the title for the article"
+  url: "#"
+  heading_level:
+  modifier:
+teaser: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum."
+read_more:
+  url: "#"
+  text: "Read full article"
+  modifier: 'link__read-more'
+modifier:

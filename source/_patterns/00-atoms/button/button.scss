@@ -1,0 +1,40 @@
+@import '../../../css/scss/utils/init';
+
+.button {
+  background-color: $color-white;
+  box-shadow: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 8px 35px;
+  color: $color-black;
+  border: 1px solid $color-black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  &:hover,
+  &:focus {
+    color: $color-black;
+  }
+
+  &.button--primary {
+    background: $color-primary;
+    color: $color-white;
+    border-color: darken($color-primary, 15%);
+
+    &:hover,
+    &:focus {
+      color: $color-white;
+      background-color: darken($color-primary, 5%);
+    }
+  }
+
+
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="pl">
+  <head>
+    <title>Pattern Lab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1564188560590" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1564188560590" media="all" />
+    <link rel="stylesheet" href="../../css/all.css?1564188560590" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="body"><section class="latest-news">
+  <h2 class="heading heading__news">
+  Latest News
+</h2>
+
+  <div class="latest-news__list">
+    <div class="latest-news__featured">
+      <article class="card card__wide">
+  <div class="card__image">
+    <img src='https://picsum.photos/500/500' alt='Article image' />
+  </div>
+  <div class="card__content">
+    <p class="eyebrow">October 29, 2019</p>
+    <h2 class="heading">
+  <a href="#">This is the title for the article</a>
+</h2>
+
+    <div class="card__teaser">
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
+      <a class="link__read-more" href="#">
+        Read full article
+      </a>
+    </div>
+
+
+  </div>
+</article>
+    </div>
+    <ul class="latest-news__items">
+      <li class="latest-news__item">
+        <article class="card">
+  <div class="card__image">
+    <img src='https://picsum.photos/500/500' alt='Article image' />
+  </div>
+  <div class="card__content">
+    <p class="eyebrow">October 29, 2019</p>
+    <h2 class="heading">
+  <a href="#">This is the title for the article</a>
+</h2>
+
+    <div class="card__teaser">
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
+      <a class="link__read-more" href="#">
+        Read full article
+      </a>
+    </div>
+
+
+  </div>
+</article>
+      </li>
+      <li class="latest-news__item">
+        <article class="card">
+  <div class="card__image">
+    <img src='https://picsum.photos/500/500' alt='Article image' />
+  </div>
+  <div class="card__content">
+    <p class="eyebrow">October 29, 2019</p>
+    <h2 class="heading">
+  <a href="#">This is the title for the article</a>
+</h2>
+
+    <div class="card__teaser">
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
+      <a class="link__read-more" href="#">
+        Read full article
+      </a>
+    </div>
+
+
+  </div>
+</article>
+      </li>
+      <li class="latest-news__item">
+        <article class="card">
+  <div class="card__image">
+    <img src='https://picsum.photos/500/500' alt='Article image' />
+  </div>
+  <div class="card__content">
+    <p class="eyebrow">October 29, 2019</p>
+    <h2 class="heading">
+  <a href="#">This is the title for the article</a>
+</h2>
+
+    <div class="card__teaser">
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
+      <a class="link__read-more" href="#">
+        Read full article
+      </a>
+    </div>
+
+
+  </div>
+</article>
+      </li>
+      <li class="latest-news__item">
+        <article class="card">
+  <div class="card__image">
+    <img src='https://picsum.photos/500/500' alt='Article image' />
+  </div>
+  <div class="card__content">
+    <p class="eyebrow">October 29, 2019</p>
+    <h2 class="heading">
+  <a href="#">This is the title for the article</a>
+</h2>
+
+    <div class="card__teaser">
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
+      <a class="link__read-more" href="#">
+        Read full article
+      </a>
+    </div>
+
+
+  </div>
+</article>
+      </li>
+    </ul>
+  </div>
+</section><!--DO NOT REMOVE-->
+  <script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"","patternBreadcrumb":{"patternType":"organisms"},"patternExtension":"twig","patternName":"Latest News","patternPartial":"organisms-latest-news","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1564188560590">
+  (function() {
+    if (self != top) {
+      var cb = '1564188560590';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1564188560590">
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  (function() {
+    if (self != top) {
+      loadJS('../../styleguide/js/patternlab-pattern.js');
+    }
+  })();
+</script>
+
+  
+  </body>
+</html>

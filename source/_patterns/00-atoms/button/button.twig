@@ -1,0 +1,8 @@
+{% if button.url %}
+  <a href="{{ button.url }}" class="button{% if button.modifier %} {{ button.modifier }}{% endif %}">
+    {{ button.text }}</a>
+{% else %}
+  <button class="button{% if button.modifier %} {{ button.modifier }}{% endif %}">
+    {{ button.text }}
+  </button>
+{% endif %}

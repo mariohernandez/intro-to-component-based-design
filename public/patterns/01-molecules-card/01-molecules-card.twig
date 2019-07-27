@@ -1,0 +1,26 @@
+<article class="card{% if modifier %} {{ modifier }}{% endif %}">
+  <div class="card__image">
+    {{ image }}
+  </div>
+  <div class="card__content">
+    {%
+      include '@atoms/eyebrow/eyebrow.twig' with {
+        eyebrow: date
+      } only
+    %}
+    {%
+      include '@atoms/heading/heading.twig' with {
+        heading: heading
+      } only
+    %}
+
+    <div class="card__teaser">
+      <p>{{ teaser }}</p>
+      <a class="{{ read_more.modifier }}" href="{{ read_more.url }}">
+        {{ read_more.text }}
+      </a>
+    </div>
+
+
+  </div>
+</article>

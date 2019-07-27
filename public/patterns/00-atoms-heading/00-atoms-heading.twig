@@ -1,0 +1,7 @@
+<h{{ heading.heading_level|default('2') }} class="heading{% if heading.modifier %} {{ heading.modifier }}{% endif %}">
+{% if heading.url %}
+  <a href="{{ heading.url }}">{{ heading.title }}</a>
+{% else %}
+  {{ heading.title }}
+{% endif %}
+</h{{ heading.heading_level|default('2')}}>

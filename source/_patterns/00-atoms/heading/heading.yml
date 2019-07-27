@@ -1,0 +1,5 @@
+heading:
+  title: "This is our article title"
+  url: "#"
+  heading_level: 1
+  modifier: 'heading__large'

@@ -1,0 +1,4 @@
+button:
+  text: "Hi, I'm a primary button"
+  url: '#'
+  modifier: 'button--primary'

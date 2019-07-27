@@ -1,0 +1,72 @@
+<section class="latest-news">
+  {%
+    include '@atoms/heading/heading.twig' with {
+      heading: heading
+    } only
+  %}
+
+  <div class="latest-news__list">
+    <div class="latest-news__featured">
+      {%
+        include '@molecules/card/card.twig' with {
+          image: card.image,
+          date: card.date,
+          heading: card.heading,
+          teaser: card.teaser,
+          read_more: card.read_more,
+          modifier: 'card__wide'
+        } only
+      %}
+    </div>
+    <ul class="latest-news__items">
+      <li class="latest-news__item">
+        {%
+          include '@molecules/card/card.twig' with {
+            image: card.image,
+            date: card.date,
+            heading: card.heading,
+            teaser: card.teaser,
+            read_more: card.read_more,
+            modifier: ''
+          } only
+        %}
+      </li>
+      <li class="latest-news__item">
+        {%
+          include '@molecules/card/card.twig' with {
+            image: card.image,
+            date: card.date,
+            heading: card.heading,
+            teaser: card.teaser,
+            read_more: card.read_more,
+            modifier: ''
+          } only
+        %}
+      </li>
+      <li class="latest-news__item">
+        {%
+          include '@molecules/card/card.twig' with {
+            image: card.image,
+            date: card.date,
+            heading: card.heading,
+            teaser: card.teaser,
+            read_more: card.read_more,
+            modifier: ''
+          } only
+        %}
+      </li>
+      <li class="latest-news__item">
+        {%
+          include '@molecules/card/card.twig' with {
+            image: card.image,
+            date: card.date,
+            heading: card.heading,
+            teaser: card.teaser,
+            read_more: card.read_more,
+            modifier: ''
+          } only
+        %}
+      </li>
+    </ul>
+  </div>
+</section>

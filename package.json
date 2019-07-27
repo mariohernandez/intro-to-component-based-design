@@ -1,0 +1,74 @@
+{
+  "name": "component-based-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp && patternlab build --config ./patternlab-config.json",
+    "compile": "gulp compile && patternlab build --config ./patternlab-config.json",
+    "watch": "concurrently \"npm:watch:*\"",
+    "watch:patternlab": "patternlab serve --config ./patternlab-config.json",
+    "watch:gulp": "gulp watch",
+    "styleguide": "patternlab build --config ./patternlab-config.json",
+    "compress": "gulp compress",
+    "lint": "gulp lint",
+    "clean": "gulp clean",
+    "gulp": "gulp",
+    "postinstall": "patch-package"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "IE >= 11",
+              "last 3 versions"
+            ]
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "transform-remove-strict-mode"
+    ]
+  },
+  "browserslist": [
+    "IE >= 11",
+    "last 3 versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pattern-lab/core": "^3.0.1",
+    "@pattern-lab/engine-twig-php": "^3.0.1",
+    "@pattern-lab/starterkit-twig-demo": "^4.1.1",
+    "@pattern-lab/cli": "0.0.3",
+    "@pattern-lab/uikit-workshop": "^1.0.1",
+    "babel-preset-env": "^1.6.0",
+    "breakpoint-sass": "^2.7.1",
+    "concurrently": "^4.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-order": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "patch-package": "^6.1.2",
+    "run-sequence": "^2.0.0"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "npm": "^6.9.0",
+    "run": "^1.4.0"
+  }
+}
