@@ -1,0 +1,25 @@
+@import '../../../css/scss/utils/init';
+
+.utility-bar {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.utility-bar__menu {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    color: $color-white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

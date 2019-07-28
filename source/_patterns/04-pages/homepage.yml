@@ -1,0 +1,86 @@
+utility:
+  items:
+    - label: 'My Account'
+      url: '#'
+    - label: 'Logout'
+      url: '#'
+  menu_modifier:
+
+nav:
+  items:
+  - label: 'Home'
+    url: '#'
+  - label: 'About Us'
+    url: '#'
+  - label: 'Services'
+    url: '#'
+  - label: 'Blog'
+    url: '#'
+  - label: 'Contact'
+    url: '#'
+  menu_modifier:
+
+image: '<img src="../../images/hero-bg.jpg" alt="Hero image" />'
+heading:
+  title: News Categories
+  url: ''
+  heading_level: 2
+  modifier:
+
+button:
+  text: See All Categories
+  url: '#'
+  modifier: 'button--primary'
+
+categories:
+  - icon:
+      label: Politics
+      url: '#'
+      icon: 'politics'
+      modifier:
+  - icon:
+      label: National
+      url: '#'
+      icon: 'national'
+      modifier:
+  - icon:
+      label: The World
+      url: '#'
+      icon: 'world'
+      modifier:
+  - icon:
+      label: Sports
+      url: '#'
+      icon: 'sports'
+      modifier:
+  - icon:
+      label: Health
+      url: '#'
+      icon: 'health'
+      modifier:
+  - icon:
+      label: Fashion
+      url: '#'
+      icon: 'fashion'
+      modifier:
+
+news_heading:
+  title: "Latest News"
+  url:
+  heading_level: 2
+  modifier: 'heading__news'
+
+card:
+  image: "<img src='https://picsum.photos/500/500' alt='Article image' />"
+  date: "October 29, 2019"
+  heading:
+    title: "This is the title for the article"
+    url: "#"
+    heading_level:
+    modifier:
+  teaser: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum."
+  read_more:
+    url: "#"
+    text: "Read full article"
+    modifier: 'link__read-more'
+  modifier: ''

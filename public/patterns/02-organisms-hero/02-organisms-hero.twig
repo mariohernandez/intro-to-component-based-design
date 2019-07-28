@@ -1,0 +1,15 @@
+<section class="hero">
+  <div class="hero__image">
+    {{ image }}
+  </div>
+
+  {% if heading or button or items %}
+    {%
+      include '@molecules/news-categories/news-categories.twig' with {
+        heading: heading,
+        button: button,
+        items: items
+      } only
+    %}
+  {% endif %}
+</section>

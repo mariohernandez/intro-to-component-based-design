@@ -1,0 +1,31 @@
+.category-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+  .category-icon a {
+    color: #C25421;
+    font-size: 18px;
+    text-decoration: none; }
+    .category-icon a:hover, .category-icon a:focus {
+      text-decoration: none; }
+
+.category-icon__img {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FCECD9;
+  border: 2px solid #f8d4aa;
+  margin-bottom: 6px; }

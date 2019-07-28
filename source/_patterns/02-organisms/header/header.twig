@@ -1,0 +1,19 @@
+<header class="header" role="header">
+  {%
+    include '@molecules/utility-bar/utility-bar.twig' with {
+      items: utility.items,
+      menu_modifier: utility.menu_modifier
+    } only
+  %}
+
+  {% if nav %}
+    <div class="header__main-menu">
+      {%
+        include '@molecules/main-menu/main-menu.twig' with {
+          items: nav.items,
+          menu_modifier: nav.menu_modifier
+        } only
+      %}
+    </div>
+  {% endif %}
+</header>

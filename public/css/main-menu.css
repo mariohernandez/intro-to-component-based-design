@@ -1,0 +1,19 @@
+.main-menu {
+  background-color: #C25421;
+  display: block;
+  text-align: center;
+  margin: 0 auto; }
+  .main-menu .menu__item {
+    display: inline-block;
+    margin: 0; }
+  .main-menu a {
+    background-color: #C25421;
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px; }
+    .main-menu a:hover, .main-menu a:focus {
+      background-color: #ac4b1d;
+      color: #FFFFFF;
+      text-decoration: none; }

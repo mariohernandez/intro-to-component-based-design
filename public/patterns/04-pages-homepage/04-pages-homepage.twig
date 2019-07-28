@@ -1,0 +1,11 @@
+{% include '@organisms/header/header.twig' %}
+
+{% include '@organisms/hero/hero.twig' with {
+    image: image,
+    heading: heading,
+    items: categories,
+    button: button
+  } only
+%}
+
+{% include '@organisms/latest-news/latest-news.twig' %}

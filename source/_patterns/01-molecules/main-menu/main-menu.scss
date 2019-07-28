@@ -1,0 +1,29 @@
+@import '../../../css/scss/utils/init';
+
+.main-menu {
+  background-color: $color-primary;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+  .menu__item {
+    display: inline-block;
+    margin: 0;
+  }
+
+  a {
+    background-color: $color-primary;
+    display: inline-block;
+    color: $color-white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color-primary, 5%);
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+}

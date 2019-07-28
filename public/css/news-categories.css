@@ -1,0 +1,18 @@
+.news-categories {
+  border-top: 4px solid #C25421;
+  background-color: #FFFFFF;
+  padding: 30px 0; }
+  .news-categories .heading {
+    text-align: center;
+    margin-bottom: 40px; }
+
+.news-categories__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 80px; }
+
+.news-categories__button {
+  text-align: center; }

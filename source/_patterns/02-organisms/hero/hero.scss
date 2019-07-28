@@ -1,0 +1,10 @@
+@import '../../../css/scss/utils/init';
+
+.hero {
+  position: relative;
+
+  .news-categories {
+    @include center-align(absolute);
+    width: 70%;
+  }
+}

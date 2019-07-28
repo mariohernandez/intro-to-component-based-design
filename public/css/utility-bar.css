@@ -1,0 +1,20 @@
+.utility-bar {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0 10px;
+  width: 100%; }
+
+.utility-bar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  .utility-bar__menu a {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none; }
+    .utility-bar__menu a:hover, .utility-bar__menu a:focus {
+      text-decoration: underline; }

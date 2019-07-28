@@ -1,0 +1,30 @@
+@import '../../../css/scss/utils/init';
+
+.category-icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  a {
+    color: $color-primary;
+    font-size: 18px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.category-icon__img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: $color-beige;
+  border: 2px solid darken($color-beige, 10%);
+  margin-bottom: 6px;
+}

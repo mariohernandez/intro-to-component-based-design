@@ -1,0 +1,12 @@
+<div class="category-icon">
+  {# Wraps all elements in anchor to ensure
+  entire component is a link. #}
+  <a href="{{ icon.url }}" class="category-icon__link">
+    <div class="category-icon__img">
+      {# Uses value of icon.icon to pass as name of icon and appends
+      file extension of .svg to use matching file as image source. #}
+      <img src="{{ '../../images/' ~ icon.icon ~ '.svg' }}" alt="{{ icon.label }}" />
+    </div>
+    <span>{{ icon.label }}</span>
+  </a>
+</div>

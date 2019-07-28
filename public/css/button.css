@@ -10,7 +10,8 @@
   text-transform: uppercase;
   letter-spacing: 2px; }
   .button:hover, .button:focus {
-    color: #000000; }
+    color: #000000;
+    text-decoration: none; }
   .button.button--primary {
     background: #C25421;
     color: #FFFFFF;
