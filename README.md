@@ -1,6 +1,8 @@
 # Introduction to Component Based Web Design
+A collection of resources and code base for people who completed the Skillshare class on Introduction to Component Based Web Design.
 
-Codebase and resources for continuing learning about component based web design.
+Class was provided by [Mario Hernandez](https://twitter.com/imariohernandez), Lead of Learning at Mediacurrent.
+
 
 ## Codebase
 To download the entire codebase used in this class click the **Clone or Download** button above.
