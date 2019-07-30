@@ -1,45 +1,58 @@
 # Introduction to Component Based Web Design
-A collection of resources and code base for people who completed the Skillshare class on Introduction to Component Based Web Design.
+An Introductory online course by [Mario Hernandez](https://mariohernandez.io), Head of Learning at [Mediacurrent](https://mediacurrent.com/).   Available at [Skill Share](https://skillshare.com).
 
-Class was provided by [Mario Hernandez](https://twitter.com/imariohernandez), Lead of Learning at Mediacurrent.
 
 ![Cover Image](./source/images/cover-intro.jpg)
 
-## Codebase
+# Codebase
 To download the entire codebase used in this class click the **Clone or Download** button above.
+
+**NOTE** The codebase includes the Gulp Configuration described below.  If you wish to use this codebase, you DO NOT need to copy the files listed below as they are already part of the codebase.
 
 # Resources
 * [Atomic Web Design](http://bradfrost.com/blog/post/atomic-web-design/)
 * [Pattern Lab](https://patternlab.io/)
 * [BEM 101](https://css-tricks.com/bem-101/)
 * [Lorem Picsum](https://picsum.photos/)
+* [Microsoft VS Code Editor](https://code.visualstudio.com/)
 
-## Download Gulp Configuration for Styles Compiling
-If you wish to implement the Gulp configuration changes we discussed in the **Introduction to Pattern Lab** video, copy the following files and folders intro your project:
+# Gulp Configuration Only
+If you wish to implement the Gulp configuration changes we discussed in the **Introduction to Pattern Lab** video, copy the following files and folders into your project:
 
-* gulp-tasks/
-* patches/
-* .gitignore
-* .htaccess
-* .nvmrc
-* .sass-lint.yml
-* .alter-twig.php
-* gulpfile.js
-* package.json
-* patternlab-config.json
+  * gulp-tasks/
+  * patches/
+  * .gitignore
+  * .htaccess
+  * .nvmrc
+  * .sass-lint.yml
+  * .alter-twig.php
+  * gulpfile.js
+  * package.json
+  * patternlab-config.json
 
-### Then follow these steps
 
-1. Copy all the files above into the root of your Pattern Lab project
-2. Delete **node_modules**
-3. Delete **package-lock.json**
+**NOTE**:  If you are prompted to override files, please do so.
 
-### Run the next commands from the root of your Pattern Lab project
 
-```nvm use```
+## then do this
 
-```npm install```
+  1. Delete **node_modules**
+  2. Delete **package-lock.json**
 
-```npm run build```
+---
+## and finally run the following commands from the root of your Pattern Lab project
 
-```npm run watch```
+  ```nvm use```<br />
+  This ensures you use the version of NodeJS specified in the **.nvmrc** file.
+
+
+  ```npm install```<br />
+  Installs all NodeJS dependencies for the project.
+
+
+  ```npm run build```<br />
+  Builds your entire project by compiling all code.
+
+
+  ```npm run watch```<br />
+  Compiles code, reloads browser and auto compiles any file changes upon save, changes or creation.
