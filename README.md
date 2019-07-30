@@ -3,6 +3,7 @@ A collection of resources and code base for people who completed the Skillshare 
 
 Class was provided by [Mario Hernandez](https://twitter.com/imariohernandez), Lead of Learning at Mediacurrent.
 
+![Cover Image](./source/images/cover-intro.jpg)
 
 ## Codebase
 To download the entire codebase used in this class click the **Clone or Download** button above.
